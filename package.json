@@ -1,0 +1,14 @@
+{
+  "name": "englishdz-landingpage",
+  "version": "1.0.0",
+  "description": "landing page for longli android app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bessoufi mounir",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
