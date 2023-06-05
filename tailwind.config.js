@@ -39,7 +39,12 @@ module.exports = {
       fontFamily:{
         'titan': ['Titan One'],
         'noto': ['Noto Sans Arabic']
-      }
+      },
+      fontWeight: {
+        normal: 300,
+        semibold: 600,
+      },
+
     },
   },
   plugins: [],
