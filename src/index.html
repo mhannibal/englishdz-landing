@@ -30,7 +30,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@300;600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@600&display=swap" rel="stylesheet">
     <link rel="icon" href="./media/favicon.ico" type="image/x-icon">
     <link rel="icon" href="./media/android-chrome-192x192.png" sizes="192x192" type="image/png">
     <link rel="stylesheet" href="./style.css">
@@ -43,12 +42,13 @@
                 <header class='flex flex-row bg- w-full justify-between p-5 lg:px-40 '>
 
                     <div class='flex flex-row gap-4 items-center '>
-                        <img src='./media/logo1.png' alt='logo' class='w-16 h-auto -rotate-12' >
+                        <img loading="lazy"  src='./media/logo1.png' alt='logo' class='w-16 h-auto -rotate-12' >
                         <h3 class='capitalize text-mpink-100 text-xl text-white font-titan mounir-text-shadow'>Longli</h3>
                     </div>
 
-                    <nav class='md:opacity-0 opacity-100 '>
-                        <input type="checkbox" >
+                    <nav class='md:opacity-0 opacity-100 hidden'>
+                        <label for="humburger-checkbox"> show menu</label>
+                        <input type="checkbox" id="humburger-checkbox" >
                         <div class="humburger">
                             <span class="line line1"></span>
                             <span class="line line2"></span>
@@ -92,12 +92,12 @@
                                 </p>
                             </div>
                             <div class="w-1/2">
-                                <img src='./media/google-play-badge.png' class=' cursor-pointer' alt="google play download badge">
+                                <img loading="lazy"  src='./media/google-play-badge.png' class=' cursor-pointer' alt="google play download badge">
                                 <span class='text-white flex justify-center '>حمل التطبيق مجانا وابدأ التعلم</span>
                             </div>
                         </div>
                     </div>
-                    <img src='./media/mockup_transparent_App.png' alt="phone" class='md:w-1/4 h-auto hidden md:block ' >
+                    <img loading="lazy"  src='./media/mockup_transparent_App.png' alt="phone" class='md:w-1/4 h-auto hidden md:block ' >
                 </section>
             </div>
 
@@ -106,7 +106,7 @@
 
 
     <section class='flex flex-col items-center md:h-screen py-24'>
-        <img src='./media/teacher-kids-book.jpg' alt='kids with their teacher reading from a book'
+        <img loading="lazy"  src='./media/teacher-kids-book.jpg' alt='kids with their teacher reading from a book'
             class='w-1/2 md:w-2/5' >
         <div class='flex flex-col md:flex-row w-5/6 gap-20'>
             <div class='flex flex-col'>
@@ -139,7 +139,7 @@
 
 
     <section
-        class='flex flex-col py-16 px-8 gap-8 bg-mgreen-100 md:h-screen  md:flex-row  align md:items-center  md:justify-center md:gap-4 md:py-12 md:px-40 text-white '>
+        class='flex flex-col py-16 px-8 gap-8 bg-mgreen-100 md:h-screen  md:flex-row  align md:items-center  md:justify-center md:gap-4 md:py-12 md:px-40 text-black '>
         <div class="flex flex-col gap-8 md:gap-4  md:w-1/3 md:h-full text-center md:text-right justify-around ">
             <div>
                 <h2 class="text-xl font-semibold font-noto">شاهد اسمع وكرر</h2>
@@ -157,28 +157,28 @@
         <div class="flex justify-center items-center md:w-1/2">
             <div class="carousel w-2/4 rounded-3xl border-4 border-slate-800">
                 <div id="slide1" class="carousel-item relative w-full ">
-                  <img src="./media/app/screen1.png" alt="longli app home screen" class="w-full" >
+                  <img loading="lazy"  src="./media/app/screen1.png" alt="longli app home screen" class="w-full" >
                   <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide4" class="btn btn-circle">❮</a>
                     <a href="#slide2" class="btn btn-circle">❯</a>
                   </div>
                 </div>
                 <div id="slide2" class="carousel-item relative w-full">
-                  <img src="./media/app/screen2.png" alt="longli app activity screen" class="w-full" >
+                  <img loading="lazy"  src="./media/app/screen2.png" alt="longli app activity screen" class="w-full" >
                   <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide1" class="btn btn-circle">❮</a>
                     <a href="#slide3" class="btn btn-circle">❯</a>
                   </div>
                 </div>
                 <div id="slide3" class="carousel-item relative w-full">
-                  <img src="./media/app/screen3.png" alt="longli app another activity screen" class="w-full" >
+                  <img loading="lazy"  src="./media/app/screen3.png" alt="longli app another activity screen" class="w-full" >
                   <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide2" class="btn btn-circle">❮</a>
                     <a href="#slide4" class="btn btn-circle">❯</a>
                   </div>
                 </div>
                 <div id="slide4" class="carousel-item relative w-full">
-                  <img src="./media/app/screen4.png" alt="longli app quiz activity screen" class="w-full" >
+                  <img loading="lazy"  src="./media/app/screen4.png" alt="longli app quiz activity screen" class="w-full" >
                   <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide3" class="btn btn-circle">❮</a>
                     <a href="#slide1" class="btn btn-circle">❯</a>
@@ -202,10 +202,10 @@
         class='flex flex-col   justify-center items-center align-middle  gap-4  mx-auto my-32 mb-32 md:mt-52 md:mb-52'>
         <h2 class="font-serif text-2xl mb-8">تطبيق مجاني لتعلم الانجليزية</h2>
         <div>
-            <img class=" w-32 h-auto" src="./media/logo1.png" alt="longli english app logo">
+            <img loading="lazy"  class=" w-32 h-auto" src="./media/logo1.png" alt="longli english app logo">
         </div>
         <div>
-            <img src='./media/google-play-badge.png' class='cursor-pointer w-64 h' alt="google play download badge">
+            <img loading="lazy"  src='./media/google-play-badge.png' class='cursor-pointer w-64 h' alt="google play download badge">
             <p class="font-noto ">حمل التطبيق و ابدأ الصعود نحو قمة الاحتراف</p>
         </div>
     </section>
@@ -226,7 +226,7 @@
                         وفقا لمنهاج وزارة التربية الجزائرية
                         انتاج مؤسسة كلمة 2023
                     </p>
-                    <img class='w-7' src='./media/kalima.png' alt='kalima company logo' >
+                    <img loading="lazy"  class='w-7' src='./media/kalima.png' alt='kalima company logo' >
                 </div>
             </footer>
         </div>
