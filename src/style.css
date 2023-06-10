@@ -2015,6 +2015,11 @@ nav input[type="checkbox"]:checked ~ .humburger .line3 {
 }
 
 @media (min-width: 768px) {
+  .md\:my-52 {
+    margin-top: 13rem;
+    margin-bottom: 13rem;
+  }
+
   .md\:mb-52 {
     margin-bottom: 13rem;
   }
